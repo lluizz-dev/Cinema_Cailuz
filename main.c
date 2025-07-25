@@ -34,7 +34,7 @@ int main()
                 break;
             default: 
                 printf("Opção inválida!\n");
-                printf("Digite novamente!\n");
+                printf("Digite novamente! \n");
         }
     } while (opcao < 1 || opcao > 5);
 
