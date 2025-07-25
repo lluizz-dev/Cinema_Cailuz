@@ -37,4 +37,6 @@ int main()
                 printf("Digite novamente!\n");
         }
     } while (opcao < 1 || opcao > 5);
+
+    return 0;
 }
