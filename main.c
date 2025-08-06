@@ -51,7 +51,8 @@ void voltarMenu(int *Popcao) {
         scanf("%d", Popcao);
         
         if (*Popcao > 1 || *Popcao < 0) {
-            printf("Opção inválida.\n Tente novamente!\n");
+            system("clear");
+            printf("Opção inválida.\nTente novamente!\n");
         }
     }
     
@@ -59,6 +60,7 @@ void voltarMenu(int *Popcao) {
         *Popcao = 0;
     }
     else if (*Popcao == 0) {
+        printf("Saindo...");
         *Popcao = 1;
     }
     system("clear");
@@ -66,6 +68,7 @@ void voltarMenu(int *Popcao) {
 
 void listaFilmes() {
     system("clear");
+    printf("------------- Cartaz de Filmes -------------\n\n");
     printf("1. Quarteto Fantástico.\n");
     printf("2. Superman.\n");
     printf("3. Smurfs.\n");
